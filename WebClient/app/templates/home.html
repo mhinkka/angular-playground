@@ -1,0 +1,16 @@
+﻿<div class="container">
+  <div class="row">
+    <div ng-hide="session.isAuthenticated()" class="panel panel-info">
+      <div class="panel-heading" translate>Authentication required</div>
+      <div class="panel-body" translate>
+        Please authenticate using 'test' as email and 'test' as password.
+      </div>
+    </div>
+    <div ng-show="session.isAuthenticated()" class="panel panel-info">
+      <div class="panel-heading" translate>Welcome!</div>
+      <div class="panel-body" translate>
+        Please use navigation bar above to navigate to desired view.
+      </div>
+    </div>
+  </div>
+</div>

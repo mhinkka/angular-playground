@@ -1,0 +1,17 @@
+﻿<div class="container">
+  <div class="row">
+    <h1>
+      <span translate>Details of object: {{objectId}}</span>
+      <button class="btn btn-sm btn-primary" type="button" ng-click="edit()" translate>Edit</button>
+      <button class="btn btn-sm btn-primary" type="button" ng-click="delete()" translate>Delete</button>
+    </h1>
+
+    <a href="{{object.data.url}}" class="thumb">
+      <img ng-src="{{object.data.thumbnail}}" />
+    </a>
+
+    <a href="{{object.data.url}}">
+      {{object.data.title}}
+    </a>
+  </div>
+</div>

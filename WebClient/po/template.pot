@@ -1,0 +1,172 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: app/templates/object-list.html
+msgid "-Title"
+msgstr ""
+
+#: app/templates/home.html
+msgid "Authentication required"
+msgstr ""
+
+#: app/templates/object-edit.html
+msgid "Cancel"
+msgstr ""
+
+#: app/templates/index.html
+msgid "Close"
+msgstr ""
+
+#: app/templates/object-list.html
+msgid "Create"
+msgstr ""
+
+#: app/templates/object-edit.html
+msgid "Creating a new object"
+msgstr ""
+
+#: app/templates/object-detail.html
+msgid "Delete"
+msgstr ""
+
+#: app/templates/object-detail.html
+msgid "Details of object: {{objectId}}"
+msgstr ""
+
+#: app/templates/object-detail.html
+msgid "Edit"
+msgstr ""
+
+#: app/templates/object-edit.html
+msgid "Editing object: {{objectId}}"
+msgstr ""
+
+#: app/templates/index.html
+msgid "Email"
+msgstr ""
+
+#: app/templates/index.html
+msgid "English"
+msgstr ""
+
+#: app/templates/object-list.html
+msgid "Enter text to search here"
+msgstr ""
+
+#: app/templates/index.html
+msgid "Finnish"
+msgstr ""
+
+#: app/templates/index.html
+msgid "Home"
+msgstr ""
+
+#: app/controllers/main.js
+msgid "Incorrect user name or password was given."
+msgstr ""
+
+#: app/templates/index.html
+msgid "Language <b class=\"caret\"></b>"
+msgstr ""
+
+#: app/templates/object-edit.html
+msgid "Linked url"
+msgstr ""
+
+#: app/templates/object-list.html
+msgid "List Configuration"
+msgstr ""
+
+#: app/templates/index.html
+msgid "Local"
+msgstr ""
+
+#: app/templates/index.html
+msgid "Logged in as {{ userName }}"
+msgstr ""
+
+#: app/controllers/main.js
+msgid "Login failed!"
+msgstr ""
+
+#: app/templates/object-list.html
+msgid "Objects in Browser's Local Storage"
+msgstr ""
+
+#: app/templates/index.html
+msgid "Password"
+msgstr ""
+
+#: app/templates/home.html
+msgid "Please authenticate using 'test' as email and 'test' as password."
+msgstr ""
+
+#: app/templates/home.html
+msgid "Please use navigation bar above to navigate to desired view."
+msgstr ""
+
+#: app/templates/object-edit.html
+msgid "Required!"
+msgstr ""
+
+#: app/templates/object-list.html
+msgid "Reset Cache"
+msgstr ""
+
+#: app/templates/object-edit.html
+msgid "Save"
+msgstr ""
+
+#: app/templates/object-list.html
+msgid "Search:"
+msgstr ""
+
+#: app/templates/index.html
+msgid "Sign in"
+msgstr ""
+
+#: app/templates/index.html
+msgid "Sign out"
+msgstr ""
+
+#: app/templates/object-list.html
+msgid "Sort by:"
+msgstr ""
+
+#: app/templates/object-edit.html
+msgid "Thumbnail Url:"
+msgstr ""
+
+#: app/templates/object-edit.html
+msgid "Thumbnail url"
+msgstr ""
+
+#: app/templates/object-list.html
+msgid "Title"
+msgstr ""
+
+#: app/templates/object-edit.html
+msgid "Title of the object"
+msgstr ""
+
+#: app/templates/object-edit.html
+msgid "Title:"
+msgstr ""
+
+#: app/templates/index.html
+msgid "Toggle navigation"
+msgstr ""
+
+#: app/templates/object-edit.html
+msgid "Url:"
+msgstr ""
+
+#: app/templates/object-edit.html
+msgid "Valid URL required!"
+msgstr ""
+
+#: app/templates/home.html
+msgid "Welcome!"
+msgstr ""

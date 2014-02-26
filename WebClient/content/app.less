@@ -1,0 +1,49 @@
+﻿@thumbnail-height: 80px;
+@thumbnail-content-padding: 4px;
+
+body {
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
+  padding-top: 60px;
+  height: 100%;
+}
+
+.objects {
+  list-style: none;
+}
+
+.thumb {
+  float: left;
+  padding-bottom: 1em;
+  height: @thumbnail-height - (2 * @thumbnail-content-padding);
+  width: 75px;
+}
+
+.thumb .helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.thumb > img {
+  vertical-align: middle;
+  max-height: 68px;
+  max-width: 68px;
+}
+
+.objects li.thumbnail {
+  padding: @thumbnail-content-padding;
+  clear: both;
+  height: @thumbnail-height;
+  margin-bottom: 10px;
+}
+
+ul.objects {
+  padding: 10px 0 0 0;
+}
+
+@import "graph";
+@import "offcanvas";
+
+@import (less) "bootstrap.min.css";

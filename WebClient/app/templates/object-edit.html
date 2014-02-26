@@ -1,0 +1,41 @@
+﻿<div class="container">
+  <div class="row">
+    <h1 ng-show="creatingNew" translate>Creating a new object</h1>
+    <h1 ng-hide="creatingNew" translate>Editing object: {{objectId}}</h1>
+
+    <form name="ObjectEditForm">
+      <div class="form-group">
+        <p>
+          <label translate>Title:</label>
+          <input type="text" name="title" ng-model="object.data.title" class="form-control" placeholder="{{'Title of the object'|translate}}" required>
+          <div class="alert alert-danger error" ng-show="ObjectEditForm.title.$error.required" translate>
+            Required!
+          </div>
+        </p>
+        <p>
+          <label translate>Url:</label>
+          <input type="url" name="url" ng-model="object.data.url" class="form-control" placeholder="{{'Linked url'|translate}}" required>
+          <div class="alert alert-danger error" ng-show="ObjectEditForm.url.$error.required" translate>
+            Required!
+          </div>
+          <div class="alert alert-danger error" ng-show="ObjectEditForm.url.$error.url" translate>
+            Valid URL required!
+          </div>
+        </p>
+        <p>
+          <label translate>Thumbnail Url:</label>
+          <input type="url" name="thumbnailUrl" ng-model="object.data.thumbnail" class="form-control" placeholder="{{'Thumbnail url'|translate}}" required>
+          <div class="alert alert-danger error" ng-show="ObjectEditForm.thumbnailUrl.$error.required" translate>
+            Required!
+          </div>
+          <div class="alert alert-danger error" ng-show="ObjectEditForm.thumbnailUrl.$error.url" translate>
+            Valid URL required!
+          </div>
+        </p>
+      </div>
+
+      <button class="btn btn-sm btn-primary" type="button" ng-click="save()" ng-disabled="ObjectEditForm.$invalid" translate>Save</button>
+      <button class="btn btn-sm btn-primary" type="button" ng-click="cancel()" translate>Cancel</button>
+    </form>
+  </div>
+</div>

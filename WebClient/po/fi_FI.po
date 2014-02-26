@@ -1,0 +1,219 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Angular Playground\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fi_FI\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: app/templates/object-list.html
+msgid "-Title"
+msgstr "-Otsikko"
+
+#: app/templates/home.html
+msgid "Authentication required"
+msgstr "Sisäänkirjautuminen vaaditaan"
+
+#: app/templates/object-edit.html
+msgid "Cancel"
+msgstr "Peruuta"
+
+#: app/templates/index.html
+msgid "Close"
+msgstr "Sulje"
+
+#: app/templates/object-list.html
+msgid "Create"
+msgstr "Luo uusi"
+
+#: app/templates/object-edit.html
+msgid "Creating a new object"
+msgstr "Luodaan uutta objektia"
+
+#: app/templates/object-detail.html
+msgid "Delete"
+msgstr "Poista"
+
+#: app/templates/object-detail.html
+msgid "Details of object: {{objectId}}"
+msgstr "Objektin ominaisuudet: {{objectId}}"
+
+#: app/templates/object-detail.html
+msgid "Edit"
+msgstr "Muokkaa"
+
+#: app/templates/object-edit.html
+msgid "Editing object: {{objectId}}"
+msgstr "Objektin ominaisuudet: {{objectId}}"
+
+#: app/templates/index.html
+msgid "Email"
+msgstr "Sähköpostiosoite"
+
+#: app/templates/index.html
+msgid "English"
+msgstr "Englanti"
+
+#: app/templates/object-list.html
+msgid "Enter text to search here"
+msgstr "Etsittävä merkkijono"
+
+#: app/templates/index.html
+msgid "Finnish"
+msgstr "Suomi"
+
+#: app/templates/index.html
+msgid "Home"
+msgstr "Koti"
+
+#: app/controllers/main.js
+msgid "Incorrect user name or password was given."
+msgstr "Väärä käyttäjänimi tai salasana."
+
+#: app/templates/index.html
+msgid "Language <b class=\"caret\"></b>"
+msgstr "Kieli <b class=\"caret\"></b>"
+
+#: app/templates/object-edit.html
+msgid "Linked url"
+msgstr "Linkattu URL"
+
+#: app/templates/object-list.html
+msgid "List Configuration"
+msgstr "Listan asetukset"
+
+#: app/templates/index.html
+msgid "Local"
+msgstr "Paikallinen"
+
+#: app/templates/index.html
+msgid "Logged in as {{ userName }}"
+msgstr "Kirjauduttu käyttäjällä {{ userName }}"
+
+#: app/controllers/main.js
+msgid "Login failed!"
+msgstr "Sisäänkirjautuminen epäonnistui!"
+
+#: app/templates/object-list.html
+msgid "Objects in Browser's Local Storage"
+msgstr "Selaimen paikallisessa varastossa olevat objektit"
+
+#: app/templates/index.html
+msgid "Password"
+msgstr "Salasana"
+
+#: app/templates/home.html
+msgid "Please authenticate using 'test' as email and 'test' as password."
+msgstr ""
+"Kirjaudu sisään käyttäen 'test' sähköpostiosoitetta ja 'test' salasanaa."
+
+#: app/templates/home.html
+msgid "Please use navigation bar above to navigate to desired view."
+msgstr ""
+"Käytä yläpuolella olevaa navigaatiopalkkia siirtyäksesi haluamaasi näkymään."
+
+#: app/templates/object-edit.html
+msgid "Required!"
+msgstr "Välttämätön!"
+
+#: app/templates/object-list.html
+msgid "Reset Cache"
+msgstr "Alusta välimuisti uudelleen"
+
+#: app/templates/object-edit.html
+msgid "Save"
+msgstr "Tallenna"
+
+#: app/templates/object-list.html
+msgid "Search:"
+msgstr "Etsi:"
+
+#: app/templates/index.html
+msgid "Sign in"
+msgstr "Kirjaudu"
+
+#: app/templates/index.html
+msgid "Sign out"
+msgstr "Poistu"
+
+#: app/templates/object-list.html
+msgid "Sort by:"
+msgstr "Järjestä:"
+
+#: app/templates/object-edit.html
+msgid "Thumbnail Url:"
+msgstr "Näytekuvan URL:"
+
+#: app/templates/object-edit.html
+msgid "Thumbnail url"
+msgstr "Näytekuvan URL"
+
+#: app/templates/object-list.html
+msgid "Title"
+msgstr "Otsikko"
+
+#: app/templates/object-edit.html
+msgid "Title of the object"
+msgstr "Objektin otsikko"
+
+#: app/templates/object-edit.html
+msgid "Title:"
+msgstr "Otsikko:"
+
+#: app/templates/index.html
+msgid "Toggle navigation"
+msgstr "Vaihda navigaatiota"
+
+#: app/templates/object-edit.html
+msgid "Url:"
+msgstr "URL:"
+
+#: app/templates/object-edit.html
+msgid "Valid URL required!"
+msgstr "Epäkelpo URL"
+
+#: app/templates/home.html
+msgid "Welcome!"
+msgstr "Tervetuloa!"
+
+#~ msgid "-Description"
+#~ msgstr "-Kuvaus"
+
+#~ msgid "-Name"
+#~ msgstr "-Nimi"
+
+#~ msgid "-Value"
+#~ msgstr "-Arvo"
+
+#~ msgid "Description"
+#~ msgstr "Kuvaus"
+
+#~ msgid "Description:"
+#~ msgstr "Kuvaus:"
+
+#~ msgid "Graph"
+#~ msgstr "Käppyrä"
+
+#~ msgid "Name"
+#~ msgstr "Nimi"
+
+#~ msgid "Server"
+#~ msgstr "Palvelin"
+
+#~ msgid "Server Objects"
+#~ msgstr "Palvelimen objektit"
+
+#~ msgid "Value"
+#~ msgstr "Arvo"
+
+#~ msgid "Value:"
+#~ msgstr "Arvo:"
+
+#~ msgid "Editing object: %s"
+#~ msgstr "Muokataan objektia: %s"

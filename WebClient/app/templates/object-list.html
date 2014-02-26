@@ -1,0 +1,46 @@
+﻿<div class="container">
+  <div class="row">
+    <div class="col-sm-3">
+      <div class="panel panel-default">
+        <div class="panel-heading" translate>List Configuration</div>
+        <div class="panel-body">
+          <div>
+            <span translate>Search:</span> <input ng-model="query" style="width: 100%" placeholder="{{'Enter text to search here'|translate}}">
+          </div>
+          <div>
+            <span translate>Sort by:</span>
+            <select ng-model="orderProp" style="width: 100%">
+              <option value="data.title" translate>Title</option>
+              <option value="-data.title" translate>-Title</option>
+            </select>
+          </div>
+          <br />
+          <p>
+            <button class="btn btn-xs btn-primary" type="button" ng-click="resetCache()" translate>Reset Cache</button>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-9">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <span translate>Objects in Browser's Local Storage</span>
+          <button class="btn btn-xs btn-primary" style="float: right" type="button" ng-click="createNew()" translate>Create</button>
+        </div>
+        <div class="panel-body">
+          <ul class="objects">
+            <li ng-repeat="object in objects | filter:query | orderBy:orderProp" class="thumbnail">
+              <a href="{{object.data.url}}" class="thumb">
+                <img ng-src="{{object.data.thumbnail}}" />
+              </a>
+
+              <a href="#/object/detail/{{object.data.id}}">
+                {{object.data.title}}
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,19 @@
+{
+  "name": "someProj",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {},
+  "author": "",
+  "license": "",
+  "devDependencies": {
+    "grunt-cli": "~0.1.13",
+    "grunt": "~0.4.2",
+    "grunt-angular-gettext": "~0.2.5",
+    "grunt-contrib-less": "~0.9.0",
+    "grunt-contrib-requirejs": "~0.4.1",
+    "grunt-preprocess": "~4.0.0",
+    "grunt-contrib-jasmine": "~0.5.2",
+    "grunt-template-jasmine-requirejs": "~0.1.9",
+    "grunt-protractor-runner": "~0.2.3"
+  }
+}

@@ -1,0 +1,217 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Angular Playground\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: app/templates/object-list.html
+msgid "-Title"
+msgstr "-Title"
+
+#: app/templates/home.html
+msgid "Authentication required"
+msgstr "Authentication required"
+
+#: app/templates/object-edit.html
+msgid "Cancel"
+msgstr "Cancel"
+
+#: app/templates/index.html
+msgid "Close"
+msgstr "Close"
+
+#: app/templates/object-list.html
+msgid "Create"
+msgstr "Create"
+
+#: app/templates/object-edit.html
+msgid "Creating a new object"
+msgstr "Creating a new object"
+
+#: app/templates/object-detail.html
+msgid "Delete"
+msgstr "Delete"
+
+#: app/templates/object-detail.html
+msgid "Details of object: {{objectId}}"
+msgstr "Details of object: {{objectId}}"
+
+#: app/templates/object-detail.html
+msgid "Edit"
+msgstr "Edit"
+
+#: app/templates/object-edit.html
+msgid "Editing object: {{objectId}}"
+msgstr "Editing object: {{objectId}}"
+
+#: app/templates/index.html
+msgid "Email"
+msgstr "Email"
+
+#: app/templates/index.html
+msgid "English"
+msgstr "English"
+
+#: app/templates/object-list.html
+msgid "Enter text to search here"
+msgstr "Enter text to search here"
+
+#: app/templates/index.html
+msgid "Finnish"
+msgstr "Finnish"
+
+#: app/templates/index.html
+msgid "Home"
+msgstr "Home"
+
+#: app/controllers/main.js
+msgid "Incorrect user name or password was given."
+msgstr "Incorrect user name or password was given."
+
+#: app/templates/index.html
+msgid "Language <b class=\"caret\"></b>"
+msgstr "Language <b class=\"caret\"></b>"
+
+#: app/templates/object-edit.html
+msgid "Linked url"
+msgstr "Linked URL"
+
+#: app/templates/object-list.html
+msgid "List Configuration"
+msgstr "List Configuration"
+
+#: app/templates/index.html
+msgid "Local"
+msgstr "Local"
+
+#: app/templates/index.html
+msgid "Logged in as {{ userName }}"
+msgstr "Logged in as {{ userName }}"
+
+#: app/controllers/main.js
+msgid "Login failed!"
+msgstr "Login failed!"
+
+#: app/templates/object-list.html
+msgid "Objects in Browser's Local Storage"
+msgstr "Objects in Browser's Local Storage"
+
+#: app/templates/index.html
+msgid "Password"
+msgstr "Password"
+
+#: app/templates/home.html
+msgid "Please authenticate using 'test' as email and 'test' as password."
+msgstr "Please authenticate using 'test' as email and 'test' as password."
+
+#: app/templates/home.html
+msgid "Please use navigation bar above to navigate to desired view."
+msgstr "Please use navigation bar above to navigate to desired view."
+
+#: app/templates/object-edit.html
+msgid "Required!"
+msgstr "Required!"
+
+#: app/templates/object-list.html
+msgid "Reset Cache"
+msgstr "Reset Cache"
+
+#: app/templates/object-edit.html
+msgid "Save"
+msgstr "Save"
+
+#: app/templates/object-list.html
+msgid "Search:"
+msgstr "Search:"
+
+#: app/templates/index.html
+msgid "Sign in"
+msgstr "Sign in"
+
+#: app/templates/index.html
+msgid "Sign out"
+msgstr "Sign out"
+
+#: app/templates/object-list.html
+msgid "Sort by:"
+msgstr "Sort by:"
+
+#: app/templates/object-edit.html
+msgid "Thumbnail Url:"
+msgstr "Thumbnail URL:"
+
+#: app/templates/object-edit.html
+msgid "Thumbnail url"
+msgstr "Thumbnail URL"
+
+#: app/templates/object-list.html
+msgid "Title"
+msgstr "Title"
+
+#: app/templates/object-edit.html
+msgid "Title of the object"
+msgstr "Title of the object"
+
+#: app/templates/object-edit.html
+msgid "Title:"
+msgstr "Title:"
+
+#: app/templates/index.html
+msgid "Toggle navigation"
+msgstr "Toggle navigation"
+
+#: app/templates/object-edit.html
+msgid "Url:"
+msgstr "URL"
+
+#: app/templates/object-edit.html
+msgid "Valid URL required!"
+msgstr "Valid URL required!"
+
+#: app/templates/home.html
+msgid "Welcome!"
+msgstr "Welcome!"
+
+#~ msgid "-Description"
+#~ msgstr "-Description"
+
+#~ msgid "-Name"
+#~ msgstr "-Name"
+
+#~ msgid "-Value"
+#~ msgstr "-Value"
+
+#~ msgid "Description"
+#~ msgstr "Description"
+
+#~ msgid "Description:"
+#~ msgstr "Description:"
+
+#~ msgid "Graph"
+#~ msgstr "Graph"
+
+#~ msgid "Name"
+#~ msgstr "Name"
+
+#~ msgid "Server"
+#~ msgstr "Server"
+
+#~ msgid "Server Objects"
+#~ msgstr "Server Objects"
+
+#~ msgid "Value"
+#~ msgstr "Value"
+
+#~ msgid "Value:"
+#~ msgstr "Value:"
+
+#~ msgid "Editing object: %s"
+#~ msgstr "Editing object: %s"
