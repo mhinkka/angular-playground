@@ -7,7 +7,7 @@ requirejs.config({
 
   paths: {
     "test-init":        "../test/test-init"
-  , "console":          "../scripts/console/console-min"
+  , "console":          "../scripts/console/console"
   , "jquery":           "../scripts/jquery-1.10.2"
   , "underscore":       "../scripts/underscore"
   , "underscore.string":"../scripts/underscore.string"
