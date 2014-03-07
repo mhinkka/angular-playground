@@ -17,6 +17,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include="app\controllers\list.js" />
+    <Content Include="app\directives\index.js" />
+    <Content Include="app\directives\module.js" />
     <Content Include="app\templates\index.html" />
     <Content Include="app\translations.js" />
     <Content Include="e2e.conf.js" />
@@ -504,7 +506,7 @@
   </PropertyGroup>
   <Import Project="$(VSToolsPath)\TypeScript\Microsoft.TypeScript.targets" />
   <PropertyGroup>
-    <PostBuildEvent>call grunt.cmd $(ConfigurationName) --no-color &gt; grunt-output.txt</PostBuildEvent>
+    <PostBuildEvent>call node $(ProjectDir)node_modules\grunt-cli\bin\grunt $(ConfigurationName) --no-color &gt; grunt-output.txt</PostBuildEvent>
   </PropertyGroup>
   <Import Project="..\packages\Npm.js.1.3.15.7\build\npm.js.targets" Condition="Exists('..\packages\Npm.js.1.3.15.7\build\npm.js.targets')" />
   <Import Project="..\packages\Grunt.js.0.4.2.5\build\grunt.js.targets" Condition="Exists('..\packages\Grunt.js.0.4.2.5\build\grunt.js.targets')" />

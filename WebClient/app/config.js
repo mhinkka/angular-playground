@@ -14,8 +14,6 @@ require.config({
     , "translations":     "translations"
     , "bootstrap":        "../scripts/bootstrap"
     , "modernizr":        "../scripts/modernizr-2.7.1"
-    , "mxgraph":          "../scripts/mxgraph/js/mxClient"
-    , "mxapplication":    "../scripts/mxgraph/js/mxApplication"
     }
   , shim: {
       "console": {

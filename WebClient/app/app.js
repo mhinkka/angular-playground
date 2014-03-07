@@ -15,6 +15,7 @@ define([
   , "angular-route"
   , "angular-gettext"
   , "./controllers/index"
+  , "./directives/index"
   , "./services/index"
   , "./filters/index"
   , "./translations"
@@ -24,6 +25,8 @@ define([
     var result = angular.module("app", [
         "ngRoute"
       , "app.controllers"
+      , "app.directives"
+      , "app.filters"
       , "app.services"
       , "gettext"
     ]);
