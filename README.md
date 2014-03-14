@@ -69,16 +69,19 @@ A prototyping/seed/"playground" project for an "application" that uses the follo
           index.js              -> Directory indexer that forces all the controllers to be loaded.
           list.js               -> Controller for object list view.
           main.js               -> Topmost controller attached to the body of the main view.
-          module.js             -> Defines angular module (app.controllers) consisting of all the controllers.
+          module.js             -> Defines angular module (app.controllers) consisting of all the 
+                                   controllers.
         directives/             -> Directory for AngularJS directives used in the application.
           index.js              -> Directory indexer that forces all the directives to be loaded.
-          module.js             -> Defines angular module (app.directives) consisting of all the directives.
+          module.js             -> Defines angular module (app.directives) consisting of all the 
+                                   directives.
         filters/                -> Directory for AngularJS filters used in the application.
           index.js              -> Directory indexer that forces all the filters to be loaded.
           main.js               -> One simple (unused) filter example from AngularJS tutorial.
           module.js             -> Defines angular module (app.filters) consisting of all the filters.
         routes/                 -> Directory for AngularJS route definitions used in the application.
-          routes.js             -> Angular.js route definition file. Maps URLs to controllers and templates.
+          routes.js             -> Angular.js route definition file. Maps URLs to controllers and 
+                                   templates.
         services/               -> Directory for AngularJS services, providers and factories used in 
                                    the application.
           index.js              -> Directory indexer that forces all the services to be loaded.
