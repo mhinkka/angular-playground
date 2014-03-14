@@ -12,6 +12,15 @@
 
   <script data-main="app/config" type="text/javascript" src="scripts/require.js"></script>
 
+  <script>
+    require.config({
+      paths: {
+        "config": "../app-built/config"
+      }
+    });
+    require(["config"]);
+  </script>
+
 </head>
 <body ng-controller="MainController" style="display: none">
   <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">

@@ -24,7 +24,6 @@
     <Content Include="e2e.conf.js" />
     <Content Include="karma.unit.conf.js" />
     <Content Include="gruntfile.js" />
-    <Content Include="app\build.js" />
     <Content Include="app\controllers\home.js" />
     <Content Include="app\controllers\edit.js" />
     <Content Include="app\controllers\detail.js" />
@@ -40,7 +39,7 @@
     <Content Include="app\templates\home.html" />
     <Content Include="app\templates\object-edit.html" />
     <Content Include="app\templates\object-detail.html" />
-    <Content Include="app\text.js" />
+    <Content Include="scripts\require-text.js" />
     <Content Include="app\app.js" />
     <Content Include="app\config.js" />
     <Content Include="app\controllers\module.js" />

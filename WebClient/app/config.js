@@ -4,6 +4,7 @@ require.config({
     paths: {
       "console":          "../scripts/console/console"
     , "jquery":           "../scripts/jquery-1.10.2"
+    , "text":             "../scripts/require-text"
     , "underscore":       "../scripts/underscore"
     , "underscore.string":"../scripts/underscore.string"
     , "angular":          "../scripts/angular"
