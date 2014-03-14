@@ -128,23 +128,23 @@ A prototyping/seed/"playground" project for an "application" that uses the follo
 
 The following list contains the steps to set up the recommended development environment for QPR Entice WebClient.
 
-1) Clone the project.
-2) Install Visual Studio 2013.
-3) Install node.js. Also install npm with the node.js installer (e.g. http://nodejs.org/download/)
-4) Download TypeScript for Visual Studio 2013 (e.g. From http://www.microsoft.com/en-us/download/details.aspx?id=34790). This is step is required here just in order to be able to load the Visual Studio project file since it is actually a typescript web application-project.
-5) Open project solution file in Visual Studio 2013.
-6) Convert the solution to use IIS Express if you don't have any other web server available.
-7) Build debug configuration. This will install all the other necessary components.
-8) Run from Visual Studio (no need to attach debugger since we use debuggers in browsers).
-9) If not using IIS Express, configure your web server to have a path pointing to angular-playground/WebClient-directory.
+1. Clone the project.
+2. Install Visual Studio 2013.
+3. Install node.js. Also install npm with the node.js installer (e.g. http://nodejs.org/download/)
+4. Download TypeScript for Visual Studio 2013 (e.g. From http://www.microsoft.com/en-us/download/details.aspx?id=34790). This is step is required here just in order to be able to load the Visual Studio project file since it is actually a typescript web application-project.
+5. Open project solution file in Visual Studio 2013.
+6. Convert the solution to use IIS Express if you don't have any other web server available.
+7. Build debug configuration. This will install all the other necessary components.
+8. Run from Visual Studio (no need to attach debugger since we use debuggers in browsers).
+9. If not using IIS Express, configure your web server to have a path pointing to angular-playground/WebClient-directory.
 
 
 ## Setting up system using bash-scripts.
 ---
 
-1) Clone the project.
-2) Run `install.sh` located in angular-playground root directory.
-3) Configure your web server to have a path pointing to angular-playground/WebClient-directory.
+1. Clone the project.
+2. Run `install.sh` located in angular-playground root directory.
+3. Configure your web server to have a path pointing to angular-playground/WebClient-directory.
 
 
 ## E2E Tests
