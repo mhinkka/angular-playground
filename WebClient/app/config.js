@@ -55,23 +55,6 @@ require.config({
     , "modernizr": {
       "exports": "Modernizr"
     }
-    , "mxgraph": {
-      "exports": "mxGraph",
-      "init": function () {
-        return {
-          mxGraph: mxGraph,
-          mxUtils: mxUtils,
-          mxRubberband: mxRubberband,
-          mxClient: mxClient,
-          mxGraphModel: mxGraphModel,
-          mxCodec: mxCodec
-        }
-      }
-    }
-    , "mxapplication": {
-      "exports": "mxApplication",
-      "deps": ["mxgraph"]
-}
   }
 });
 
@@ -98,10 +81,6 @@ require([
     angular.bootstrap(window.document, ['app']);
 
     console.debug("Finalizing...")
-    $('[data-toggle=offcanvas]').click(function () {
-      alert("Pop")
-      $('.row-offcanvas').toggleClass('active');
-    });
 
     $("body").show();
 

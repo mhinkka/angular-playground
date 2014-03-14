@@ -46,8 +46,6 @@
     <Content Include="app\controllers\index.js" />
     <Content Include="app\controllers\main.js" />
     <Content Include="app\routes\routes.js" />
-    <Content Include="content\offcanvas.less" />
-    <Content Include="content\graph.less" />
     <None Include="content\app.less" />
     <Content Include="content\bootstrap-theme.css" />
     <Content Include="content\bootstrap-theme.min.css" />
