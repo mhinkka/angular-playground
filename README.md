@@ -45,8 +45,7 @@ A prototyping/seed/"playground" project for an "application" that uses the follo
       e2e.conf.js               -> E2E test configuration file.
       favicon.ico               -> Application icon file.
       gruntfile.js              -> Grunt task runner file describing supported configurations/tasks.
-      index.html                -> Automatically generated root html-file for the web site. Included into the
-                                   repository in order to be able to easily test the optimized web site in naf.cs.hut.fi.
+      index.html                -> Automatically generated root html-file for the web site. 
       install.sh                -> Bash script to both install all required npm packages and building the release version of the web site.
       karma.unit.conf.js        -> Unit test configuration file.
       package.json              -> Information about the npm packages required to run the project. Used by npm to automatically download 
@@ -54,8 +53,7 @@ A prototyping/seed/"playground" project for an "application" that uses the follo
       packages.config           -> Information about javascript libraries included into the project. Used by Visual Studio to download the
                                    packages from NuGet repositories if needed.
       setup.sh                  -> Bash script for installing npm packages required by the project.
-      app-built/                -> Automatically created (if doesn't exist yet) directory for optimized javascript files. Included into the
-                                   repository in order to be able to easily test the optimized web site in naf.cs.hut.fi.
+      app-built/                -> Automatically created (if doesn't exist yet) directory for optimized javascript files. 
         config.js               -> r.js optimized automatically generated javascript files.
       app/                      -> Directory for the actual web site implementation.
         controllers/            -> Directory for AngularJS [controllers](http://docs.angularjs.org/guide/controller) used in the
@@ -96,12 +94,9 @@ A prototyping/seed/"playground" project for an "application" that uses the follo
                                    unauthenticated users back to home page.
         config.js               -> Third party javascript file configurations. Also includes the actual bootstrapping of AngularJS to the
                                    rendered page.
-        translations.js         -> File automatically generated from gettext-tools from po-files. Included into the
-                                   repository in order to be able to easily test the optimized web site in naf.cs.hut.fi.
+        translations.js         -> File automatically generated from gettext-tools from po-files. 
       content/                  -> Directory for non-javascript (code) files required by the project. Includes images, less, css and 
                                    json-scripts etc. 
-                                   Note: css files are automatically generated from less files, but they are included in order to be able to
-                                   easily test the optimized web site in naf.cs.hut.fi.
         bootstrap/              -> Bootstrap-component related styles (less).
         app.less                -> Main stylesheet defition of the web site. Will generate app.css that is referenced by the web site.
         bootstrap*.css          -> Generated bootrap-component related styles (css).
