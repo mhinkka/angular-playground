@@ -35,29 +35,33 @@ A prototyping/seed/"playground" project for an "application" that uses the follo
 
     AngularPlayground.sln       -> Visual Studio-solution file for the project.
     install.sh                  -> Bash-shell script for building the project without Visual Studio.
-    package.json                -> Information about the npm packages required to compile the solution. Used by npm to automatically
-                                   download packages if needed.
+    package.json                -> Information about the npm packages required to compile the solution. 
+                                   Used by npm to automatically download packages if needed.
     README.md                   -> angular-playground README-file.
     .nuget/                     -> Contains the configuration of NuGet-packages for Visual Studio
-    WebClient/                  -> Directory for the actual project files. Also the root directory for the published web site.
+    WebClient/                  -> Directory for the actual project files. Also the root directory for
+                                   the published web site.
       AngularPlayground.csproj  -> Visual Studio-project file.
-      build.sh                  -> Bash script to build given configuration/task of the project without Visual Studio.
+      build.sh                  -> Bash script to build given configuration/task of the project without 
+                                   Visual Studio.
       e2e.conf.js               -> E2E test configuration file.
       favicon.ico               -> Application icon file.
       gruntfile.js              -> Grunt task runner file describing supported configurations/tasks.
       index.html                -> Automatically generated root html-file for the web site. 
-      install.sh                -> Bash script to both install all required npm packages and building the release version of the web site.
+      install.sh                -> Bash script to both install all required npm packages and building 
+                                   the release version of the web site.
       karma.unit.conf.js        -> Unit test configuration file.
-      package.json              -> Information about the npm packages required to run the project. Used by npm to automatically download 
-                                   packages if needed.
-      packages.config           -> Information about javascript libraries included into the project. Used by Visual Studio to download the
-                                   packages from NuGet repositories if needed.
+      package.json              -> Information about the npm packages required to run the project. Used 
+                                   by npm to automatically download packages if needed.
+      packages.config           -> Information about javascript libraries included into the project. 
+                                   Used by Visual Studio to download the packages from NuGet 
+                                   repositories if needed.
       setup.sh                  -> Bash script for installing npm packages required by the project.
-      app-built/                -> Automatically created (if doesn't exist yet) directory for optimized javascript files. 
+      app-built/                -> Automatically created (if doesn't exist yet) directory for optimized 
+                                   javascript files. 
         config.js               -> r.js optimized automatically generated javascript files.
       app/                      -> Directory for the actual web site implementation.
-        controllers/            -> Directory for AngularJS [controllers](http://docs.angularjs.org/guide/controller) used in the
-                                   application.
+        controllers/            -> Directory for AngularJS controllers used in the application.
           detail.js             -> Controller for object details view.
           edit.js               -> Controller for object editor view.
           header.js             -> Controller for navigator controls. 
@@ -66,10 +70,10 @@ A prototyping/seed/"playground" project for an "application" that uses the follo
           list.js               -> Controller for object list view.
           main.js               -> Topmost controller attached to the body of the main view.
           module.js             -> Defines angular module (app.controllers) consisting of all the controllers.
-        directives/             -> Directory for AngularJS [directives](http://docs.angularjs.org/guide/directive) used in the application.
+        directives/             -> Directory for AngularJS directives used in the application.
           index.js              -> Directory indexer that forces all the directives to be loaded.
           module.js             -> Defines angular module (app.directives) consisting of all the directives.
-        filters/                -> Directory for AngularJS [filters](http://docs.angularjs.org/guide/filter) used in the application.
+        filters/                -> Directory for AngularJS filters used in the application.
           index.js              -> Directory indexer that forces all the filters to be loaded.
           main.js               -> One simple (unused) filter example from AngularJS tutorial.
           module.js             -> Defines angular module (app.filters) consisting of all the filters.
@@ -77,34 +81,36 @@ A prototyping/seed/"playground" project for an "application" that uses the follo
           routes.js             -> Angular.js route definition file. Maps URLs to controllers and templates.
         services/               -> Directory for AngularJS services, providers and factories used in the application.
           index.js              -> Directory indexer that forces all the services to be loaded.
-          local.js              -> Service used to access and modify objects in "local" service. Initialized to contain data found in:
-                                   WebClient/content/objects.js.
+          local.js              -> Service used to access and modify objects in "local" service. 
+                                   Initialized to contain data found in: WebClient/content/objects.js.
           module.js             -> Defines angular module (app.services) consisting of all the services.
           objectCache.js        -> Simple cache for storing objects into local storage.
-          session.js            -> Session manager object that manages authentication session specific settings such as UI language and
-                                   user information.
-        templates/              -> Directory for AngularJS [templates](http://docs.angularjs.org/guide/templates) used in the application.
+          session.js            -> Session manager object that manages authentication session specific 
+                                   settings such as UI language and user information.
+        templates/              -> Directory for AngularJS templates used in the application.
           home.html             -> HTML template for application's home-page.
           index.html            -> Master HTML template for the web site.
           object-detail.html    -> HTML template for object details view.
           object-edit.html      -> HTML template for object editor view.
           object-list.html      -> HTML template for object list view.
-        app.js                  -> Main application module definition (app). Also ensures all required javascripts are loaded and
-                                   angular modules registered during application startup. Also includes logic for redirecting 
+        app.js                  -> Main application module definition (app). Also ensures all required 
+                                   javascripts are loaded and angular modules registered during application startup. Also includes logic for redirecting 
                                    unauthenticated users back to home page.
-        config.js               -> Third party javascript file configurations. Also includes the actual bootstrapping of AngularJS to the
-                                   rendered page.
+        config.js               -> Third party javascript file configurations. Also includes the actual 
+                                   bootstrapping of AngularJS to the rendered page.
         translations.js         -> File automatically generated from gettext-tools from po-files. 
-      content/                  -> Directory for non-javascript (code) files required by the project. Includes images, less, css and 
-                                   json-scripts etc. 
+      content/                  -> Directory for non-javascript (code) files required by the project. 
+                                   Includes images, less, css and json-objects etc. 
         bootstrap/              -> Bootstrap-component related styles (less).
-        app.less                -> Main stylesheet defition of the web site. Will generate app.css that is referenced by the web site.
+        app.less                -> Main stylesheet defition of the web site. Will generate app.css that 
+                                   is referenced by the web site.
         bootstrap*.css          -> Generated bootrap-component related styles (css).
-      po/                       -> Directory for gettext (i18n) related files. Automatically generated from code but included into 
-                                   repository as an example. Use e.g. [Poedit](http://www.poedit.net/)-editor to manage these.
+      po/                       -> Directory for gettext (i18n) related files. Automatically generated 
+                                   from code but included into repository as an example. Use e.g. Poedit-editor to manage these.
         en_US.po                -> Gettext message catalog for English translations.
         fi_FI.po                -> Gettext message catalog for Finnish translations.
-        template.pot            -> Automatically generated list of native texts to be translated extracted from javascript files.
+        template.pot            -> Automatically generated list of native texts to be translated 
+                                   extracted from javascript files.
         *.mo                    -> Automatically generated from translations.
       scripts/                  -> Directory for all the third-party javascript files.
       test/                     -> Directory for unit and E2E-test related files.
@@ -145,7 +151,7 @@ The following list contains the steps to set up the recommended development envi
 ## E2E Tests
 ---
 
-In order to be able to run e2e-tests (in e2e configuration) using [Protractor](https://github.com/angular/protractor), you have to be able to start webdriver-manager inside selenium. After you have completed the steps above, it is enough to just the command:
+In order to be able to run e2e-tests (in e2e configuration/task) using [Protractor](https://github.com/angular/protractor), you have to be able to start webdriver-manager inside selenium. After you have completed the steps above, it is enough to just the command:
 
     webdriver-manager start
 
