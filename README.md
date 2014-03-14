@@ -79,7 +79,8 @@ A prototyping/seed/"playground" project for an "application" that uses the follo
           module.js             -> Defines angular module (app.filters) consisting of all the filters.
         routes/                 -> Directory for AngularJS route definitions used in the application.
           routes.js             -> Angular.js route definition file. Maps URLs to controllers and templates.
-        services/               -> Directory for AngularJS services, providers and factories used in the application.
+        services/               -> Directory for AngularJS services, providers and factories used in 
+                                   the application.
           index.js              -> Directory indexer that forces all the services to be loaded.
           local.js              -> Service used to access and modify objects in "local" service. 
                                    Initialized to contain data found in: WebClient/content/objects.js.
@@ -94,7 +95,8 @@ A prototyping/seed/"playground" project for an "application" that uses the follo
           object-edit.html      -> HTML template for object editor view.
           object-list.html      -> HTML template for object list view.
         app.js                  -> Main application module definition (app). Also ensures all required 
-                                   javascripts are loaded and angular modules registered during application startup. Also includes logic for redirecting 
+                                   javascripts are loaded and angular modules registered during 
+                                   application startup. Also includes logic for redirecting 
                                    unauthenticated users back to home page.
         config.js               -> Third party javascript file configurations. Also includes the actual 
                                    bootstrapping of AngularJS to the rendered page.
@@ -106,7 +108,8 @@ A prototyping/seed/"playground" project for an "application" that uses the follo
                                    is referenced by the web site.
         bootstrap*.css          -> Generated bootrap-component related styles (css).
       po/                       -> Directory for gettext (i18n) related files. Automatically generated 
-                                   from code but included into repository as an example. Use e.g. Poedit-editor to manage these.
+                                   from code but included into repository as an example. Use e.g. 
+                                   Poedit-editor to manage these.
         en_US.po                -> Gettext message catalog for English translations.
         fi_FI.po                -> Gettext message catalog for Finnish translations.
         template.pot            -> Automatically generated list of native texts to be translated 
