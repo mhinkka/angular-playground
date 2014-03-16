@@ -133,7 +133,7 @@ A prototyping/seed/"playground" project for an "application" that uses the follo
 ## Setting up development environment for Visual Studio 2013
 ---
 
-The following list contains the steps to set up the recommended development environment for QPR Entice WebClient.
+The following list contains the steps to set up the recommended development environment for angular-playground.
 
 1. Clone the project.
 2. Install Visual Studio 2013.
