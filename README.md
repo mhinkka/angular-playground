@@ -12,7 +12,7 @@ A prototyping/seed/"playground" project for an "application" that uses the follo
 - [angular-gettext](http://angular-gettext.rocketeer.be/): Angular module that provides [gettext](http://en.wikipedia.org/wiki/Gettext) support and thus brings [i18n](http://en.wikipedia.org/wiki/Internationalization_and_localization) system to be used by the application. This project itself contains translations to two languages: English and Finnish.
 
 ### Testing
-- [Jasmine](http://pivotal.github.io/jasmine/): Behavior driven unit testing framework.
+- [Jasmine](https://jasmine.github.io/): Behavior driven unit testing framework.
 - [Karma](http://karma-runner.github.io/0.10/index.html): Running unit tests on several different browsers. Also for Continuous Integration testing. 
 - [Protractor](https://github.com/angular/protractor): For [e2e](http://www.techopedia.com/definition/7035/end-to-end-test) testing Angular applications.
 
